@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/et_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Author"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:layout_margin="8dp"/>
+
+<EditText
+    android:id="@+id/et_description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:hint="Description"
+    android:layout_margin="8dp"
+    />
+
+    <EditText
+        android:id="@+id/et_published"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Published"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:layout_margin="8dp"/>
+
+
+</LinearLayout>
